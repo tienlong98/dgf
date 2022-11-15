@@ -1,0 +1,140 @@
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#menu {
+  position: fixed;
+  width: 100vw;
+  z-index: 999;
+}
+
+#menu .navbar .navbar-nav .nav-item {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background: url(../image/world.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: calc(100% - 375px) auto;
+  margin-top: -82px px;
+  position: relative;
+}
+
+.banner .fix-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.banner .fix-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.banner .fix-bottom .noi-vong-tay {
+  width: 100%;
+  height: auto;
+}
+
+.content .item {
+  background: #fff;
+  color: #666;
+  -webkit-box-shadow: 0 5px 15px;
+          box-shadow: 0 5px 15px;
+}
+
+.content .item img {
+  height: 150px;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.content .sodan .toiawase button {
+  cursor: pointer;
+  background-color: #0a5790;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 5px 25px;
+}
+
+footer {
+  border-top: #666 1px solid;
+  border-bottom: #666 1px solid;
+}
+
+.banner-kaisha {
+  width: 100vw;
+  height: 70vh;
+  background: url(../image/world.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+table tr td {
+  border: none;
+  text-align: left;
+}
+
+.title-shacho p {
+  position: relative;
+}
+
+.title-shacho p::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 9%;
+  background: black;
+  height: 2px;
+}
+
+.content form input {
+  width: 100%;
+  padding: 5px;
+}
+
+.content form textarea {
+  width: 100%;
+}
+
+.content form button {
+  width: 100%;
+  padding: 5px;
+  background-color: #0a5790;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.map {
+  width: 100vw;
+}
+
+.map iframe {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
